@@ -1,0 +1,20 @@
+{
+  "skill": "course-poster-planning",
+  "scenarios": [
+    {
+      "id": "professional-course",
+      "prompt": "一门高客单管理专业课，材料包含完整机制、讲师履历和案例，但没有价格。",
+      "assertions": ["选择 rational_professional", "机制课纲与证据前置", "价格使用待补占位", "不编造优惠"]
+    },
+    {
+      "id": "no-lark-auth",
+      "prompt": "需要招生长图，但当前没有飞书用户授权。",
+      "assertions": ["交付完整文字方案", "明确画板 blocker", "不声称创建画板", "不在群聊发起 OAuth"]
+    },
+    {
+      "id": "editable-prototype",
+      "prompt": "材料完整且飞书已授权，创建课程海报画板原型。",
+      "assertions": ["使用可编辑 SVG", "本地渲染视觉检查", "写入后检查 live board", "不是不可编辑商业成片"]
+    }
+  ]
+}

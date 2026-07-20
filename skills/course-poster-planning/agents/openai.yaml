@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程海报方案"
+  short_description: "从完整课程提炼购买逻辑、海报文案、模块比例与可编辑飞书画板原型"
+  default_prompt: "使用 $course-poster-planning 为这门课设计海报文字方案，并在授权可用时生成可编辑画板原型。"
