@@ -1,0 +1,15 @@
+{
+  "skill": "course-positioning",
+  "scenarios": [
+    {
+      "id": "sufficient-materials",
+      "prompt": "材料已明确受众、场景、约束和成果，直接完成定位。",
+      "assertions": ["不重复访谈", "六项定位完整", "关键判断有 source_id"]
+    },
+    {
+      "id": "conflicting-audience",
+      "prompt": "一份材料说学员是零基础，另一份说必须有三年经验。",
+      "assertions": ["矛盾进入 decisions.jsonl", "不自行合并成人群", "只提出会改变结果的关键问题"]
+    }
+  ]
+}

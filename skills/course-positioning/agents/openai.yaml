@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程定位"
+  short_description: "从现有材料确定目标学员、挑战情境、学习成果与课程边界"
+  default_prompt: "使用 $course-positioning 根据材料索引完成课程定位，只保留会改变结果的待决策问题。"
