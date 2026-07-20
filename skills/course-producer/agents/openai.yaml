@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程制作人"
+  short_description: "面向长时 Goal 的课程定位、专家访谈、逐字稿、审校与交付全流程"
+  default_prompt: "使用 $course-producer 读取我的课程项目，从当前状态继续完成下一阶段。"
