@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书课程交付"
+  short_description: "把课程稿写入飞书并完成归属、回读、局部评论和审查协作验证"
+  default_prompt: "使用 $course-lark-delivery 把最终课程稿交付到指定飞书位置，并回读验证。"

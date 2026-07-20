@@ -1,0 +1,20 @@
+{
+  "skill": "course-lark-delivery",
+  "scenarios": [
+    {
+      "id": "wiki-sibling-copy",
+      "prompt": "保留 Wiki 中原始课程稿，在同级创建正式稿并给两个 CEO 判断项加评论。",
+      "assertions": ["先解析 wiki_node 与底层文档", "新稿位于同一父级", "正文创建后回读", "只创建两条精确 block 评论"]
+    },
+    {
+      "id": "folder-batch-delivery",
+      "prompt": "把课纲和十章正文分别创建到指定 Drive 文件夹。",
+      "assertions": ["先解析 folder token", "创建 11 个文档", "逐文档回读", "drive files list 验证归属和 token"]
+    },
+    {
+      "id": "missing-review-queue",
+      "prompt": "文档交付成功，但找不到 CEO 审查队列表。",
+      "assertions": ["不硬编码表 token", "记录非阻塞 blocker", "不否定已验证文档交付"]
+    }
+  ]
+}
