@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程内容审美对齐"
+  short_description: "从改稿、满意信号和 A/B 选择中安全学习课程内容偏好"
+  default_prompt: "使用 $course-aesthetic-alignment 根据这次课程改稿反馈建立候选偏好，并执行证据门判断。"

@@ -2,13 +2,14 @@
 
 ## 范围
 
-本项目合并并重构以下三个用户指定的源 Skill：
+本项目合并并重构以下四个用户指定的源 Skill：
 
 | 源 Skill | 本地来源 |
 |---|---|
 | `course-editor-in-chief-fanhan` | `/Users/fanhan/.agents/skills/course-editor-in-chief-fanhan/` |
 | `lark-course-xiezuo` | `/Users/fanhan/.agents/skills/lark-course-xiezuo/` |
 | `course-poster-design-plan` | `/Users/fanhan/.agents/skills/课程海报设计方案/` |
+| `内容审美对齐@泛函` | `/Users/fanhan/.agents/skills/内容审美对齐@泛函/` |
 
 “合并”指保留有效业务能力并重构边界，不等于把三个 `SKILL.md` 拼接到一个文件。
 
@@ -36,6 +37,7 @@
 | 海报购买逻辑 | `course-poster-planning` | 保留课程类型判断与信息顺序 |
 | 海报文案和比例 | `course-poster-planning` + 知识库 | 保留可执行排版规格 |
 | 飞书画板原型 | `course-poster-planning` | 调用既有白板 Skill，不复制其实现 |
+| 用户改稿、满意与 A/B 选择学习 | `course-aesthetic-alignment` | 区分作品满意与长期规则，经过证据门后才演化 |
 
 ## 新增能力
 
@@ -49,6 +51,7 @@
 - 原子 Skill 的统一输入输出契约；
 - 原创知识原子与方法论真源分层；
 - 可构建、可验证的多 Skill 发布包。
+- 项目级内容审美档案、正反例、改稿轨迹、偏好对与 Judge rubric。
 
 ## 行为兼容与有意变更
 

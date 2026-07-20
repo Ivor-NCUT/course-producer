@@ -1,0 +1,4 @@
+{
+  "prompts": [],
+  "required_dimensions": ["course_task", "aesthetic_consistency", "counterexample_avoidance", "fact_fidelity"]
+}

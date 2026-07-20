@@ -1,0 +1,20 @@
+{
+  "skill": "course-aesthetic-alignment",
+  "scenarios": [
+    {
+      "id": "single-satisfaction",
+      "prompt": "用户只说‘这版可以’，没有改稿和历史样本。",
+      "assertions": ["记录作品满意", "只进入 learning-log/positive example", "不修改主 Skill", "偏好不得 validated"]
+    },
+    {
+      "id": "ab-choice",
+      "prompt": "用户在相同课程段落的 A/B 两版中选 B，并指出 B 的解释更连贯。",
+      "assertions": ["保存 A/B 与选择理由", "建立 preference pair", "形成具体 candidate", "一条选择不足时不强行 validated"]
+    },
+    {
+      "id": "cross-sample-stability",
+      "prompt": "同一段落节奏偏好在三个不同章节的用户改稿中反复出现，同时有一个列表型任务反例。",
+      "assertions": ["证据来自不同样本", "写明列表型不适用边界", "回测历史正反例", "满足全部门槛后才 validated"]
+    }
+  ]
+}
