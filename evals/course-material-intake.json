@@ -1,0 +1,16 @@
+{
+  "skill": "course-material-intake",
+  "scenarios": [
+    {
+      "id": "mixed-materials",
+      "prompt": "盘点一个同时包含 Markdown 课纲、PDF 案例、妙记链接、会议排期聊天和损坏音频的目录。",
+      "assertions": [
+        "所有来源均进入 materials.jsonl",
+        "妙记使用 transcript 而非摘要作为证据",
+        "会议排期标记为 meeting_chatter",
+        "损坏音频标记 blocked 并进入缺口报告",
+        "不在本阶段生成课纲或逐字稿"
+      ]
+    }
+  ]
+}

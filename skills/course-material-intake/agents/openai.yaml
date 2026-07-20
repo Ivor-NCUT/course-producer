@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程材料盘点"
+  short_description: "把课程文件、飞书文档和妙记转录登记成可追溯材料索引"
+  default_prompt: "使用 $course-material-intake 盘点这个课程项目的全部材料，生成 materials.jsonl 和缺口报告。"
