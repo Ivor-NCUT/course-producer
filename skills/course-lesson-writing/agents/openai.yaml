@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程逐字稿写作"
+  short_description: "按章节检查点把课纲与证据写成可讲、可录、可审的正式课程稿"
+  default_prompt: "使用 $course-lesson-writing 从课程蓝图继续写第一个未完成章节，保留证据和讲师声音。"

@@ -1,0 +1,20 @@
+{
+  "skill": "course-lesson-writing",
+  "scenarios": [
+    {
+      "id": "chapter-with-missing-data",
+      "prompt": "课纲要求引用转化率，但知识卡只有讲师口述，没有原始数据来源。",
+      "assertions": ["数字标为待确认", "不以常识补造", "来源附录保留对应知识卡"]
+    },
+    {
+      "id": "resume-one-failed-chapter",
+      "prompt": "十章中前六章已验证，第七章写作失败，恢复 Goal。",
+      "assertions": ["从第七章恢复", "不重写前六章", "第七章完成后继续第八章"]
+    },
+    {
+      "id": "spoken-course-flow",
+      "prompt": "把访谈片段写成一章正式课程稿。",
+      "assertions": ["不是清洗后的访谈", "段落为连续句群", "有前后桥接", "方法含步骤标准和边界", "保留高价值原话与署名"]
+    }
+  ]
+}
