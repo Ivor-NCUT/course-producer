@@ -41,3 +41,10 @@ course-producer → 原子 Skills → 知识库
 ## 状态工具
 
 `tools/course-project.mjs` 是用户课程项目的唯一控制面，只读写项目根目录下的 `.course-producer/`。修改阶段名、状态迁移或指纹规则时，必须同步测试与 `docs/architecture.md`。
+
+## 验证与发布
+
+- `tools/validate-skills.mjs` 校验 Skill、界面元数据、路由、JSON 与知识原子。
+- `tools/quick_validate.py` 在 GitHub Actions 的 Python 环境中执行 frontmatter 快速校验。
+- `tools/build.mjs` 使用 Node.js 标准库构建并解压校验完整套件与独立 Skill ZIP。
+- `tools/run-offline-sample.mjs` 验证核心阶段状态与产物协议，不代替 Agent 内容评测。

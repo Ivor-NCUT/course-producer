@@ -1,0 +1,35 @@
+{
+  "suite": "course-producer",
+  "scenarios": [
+    {
+      "id": "from-zero-course",
+      "prompt": "课程制作人，我只有一个模糊主题和讲师，请从零完成课程定位、访谈设计、课纲、逐字稿与审校。",
+      "required_stages": ["intake","positioning","interview_design","knowledge_extraction","outline","lesson_writing","quality_review","completion_audit"],
+      "assertions": ["只在会改变课程方向时暂停", "所有事实保留来源或待确认", "阶段完成后写检查点"]
+    },
+    {
+      "id": "materials-to-course",
+      "prompt": "课程制作人，把目录中的访谈转录、PDF、课纲草稿和飞书妙记做成完整课程。",
+      "required_stages": ["intake","positioning","knowledge_extraction","outline","lesson_writing","quality_review"],
+      "assertions": ["妙记使用 transcript", "材料分类不混入执行指令和闲聊", "逐字稿保留 source_id"]
+    },
+    {
+      "id": "existing-draft-refinement",
+      "prompt": "课程制作人，只精修已有十章课程稿，检查逻辑、事实与 AI 味，不改变讲师立场。",
+      "required_stages": ["quality_review"],
+      "assertions": ["不强制重新定位或访谈", "review.jsonl 区分三类动作", "保留原稿与修订轨迹"]
+    },
+    {
+      "id": "resume-after-interruption",
+      "prompt": "课程制作人，继续上次项目；前六章已完成，第七章失败。",
+      "required_stages": ["lesson_writing","quality_review"],
+      "assertions": ["验证 state 与产物指纹", "从第七章恢复", "不重写已验证章节"]
+    },
+    {
+      "id": "poster-only",
+      "prompt": "课程制作人，根据这门完整课程设计招生海报与可编辑飞书画板原型。",
+      "required_stages": ["poster_planning"],
+      "assertions": ["先判断海报类型", "不编造价格案例背书", "无飞书授权时停在完整文字方案"]
+    }
+  ]
+}

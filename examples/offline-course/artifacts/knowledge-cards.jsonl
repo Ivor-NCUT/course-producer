@@ -1,0 +1,3 @@
+{"card_id":"kc-001","type":"method","title":"阻塞优先周会","summary":"会前收集状态、下一动作和决策请求；会上只讨论无法继续推进的事项。","source_id":"src-001","evidence_locator":"expert-interview.md:3","verification_status":"supported"}
+{"card_id":"kc-002","type":"claim_to_verify","title":"周会时长变化","summary":"五人团队的周会从九十分钟缩短到三十分钟。","source_id":"src-001","evidence_locator":"expert-interview.md:5","verification_status":"unverified"}
+{"card_id":"kc-003","type":"boundary","title":"预算决策边界","summary":"项目负责人整理选项，跨部门资源与预算由业务负责人决定。","source_id":"src-001","evidence_locator":"expert-interview.md:7","verification_status":"supported"}

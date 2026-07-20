@@ -1,0 +1,12 @@
+{"id":"cp-atom-001","knowledge":"课程挑战必须同时写明具体场景、当前问题和现实约束；缺少任一项都会让后续提问与案例选择失焦。","type":"principle","topics":["positioning","challenge"],"source":"course-editor-in-chief-fanhan","confidence":"high"}
+{"id":"cp-atom-002","knowledge":"课程大纲优先按学员拿到结果的速度排序，第一模块和第二模块各自交付可独立使用的成果。","type":"principle","topics":["outline","outcome-first"],"source":"course-editor-in-chief-fanhan","confidence":"high"}
+{"id":"cp-atom-003","knowledge":"访谈问题要绑定材料缺口，并同时定义追问触发条件、证据请求和停止判定；已有材料能回答的问题不重复询问。","type":"workflow","topics":["interview","evidence"],"source":"course-editor-in-chief-fanhan + Course Producer original design","confidence":"high"}
+{"id":"cp-atom-004","knowledge":"观点、方法、步骤、案例、数据、边界和讲师原话应拆成带 source_id 与 evidence_locator 的知识卡；无来源事实转为待验证主张。","type":"quality_gate","topics":["knowledge-extraction","traceability"],"source":"Course Producer original design","confidence":"high"}
+{"id":"cp-atom-005","knowledge":"每章课程正文都要完成认知起点、认知终点、挑战情境、感知素材与行动结果的闭环。","type":"principle","topics":["lesson-writing","cognitive-delivery"],"source":"course-editor-in-chief-fanhan","confidence":"high"}
+{"id":"cp-atom-006","knowledge":"课程稿的自然段应承载一个完整教学动作，连续解释通常用二到五个短句组成句群，避免一行一句的字幕式断裂。","type":"quality_gate","topics":["lesson-writing","spoken-flow"],"source":"course-editor-in-chief-fanhan revision lessons","confidence":"high"}
+{"id":"cp-atom-007","knowledge":"审校问题应分成可自动修复、需要补证据和需要用户判断三类，避免用审校者立场替换讲师观点。","type":"boundary","topics":["quality-review","fidelity"],"source":"lark-course-xiezuo + Course Producer original design","confidence":"high"}
+{"id":"cp-atom-008","knowledge":"飞书交付只有在真实对象解析、内容回读、目录归属和评论锚点都验证后才算完成。","type":"quality_gate","topics":["lark-delivery","verification"],"source":"lark-course-xiezuo","confidence":"high"}
+{"id":"cp-atom-009","knowledge":"课程海报的信息顺序由购买理由决定；转化型、理性专业型、讲师信任型和实操成果型需要不同模块比例。","type":"principle","topics":["poster","conversion"],"source":"course-poster-design-plan","confidence":"high"}
+{"id":"cp-atom-010","knowledge":"海报缺少价格、案例、背书、权益或名额时使用待补占位，不得为了视觉完整编造。","type":"boundary","topics":["poster","evidence"],"source":"course-poster-design-plan","confidence":"high"}
+{"id":"cp-atom-011","knowledge":"用户确认当前作品可用只证明作品满意，不能单独证明长期规则成立。","type":"boundary","topics":["aesthetic-alignment","learning"],"source":"内容审美对齐@泛函","confidence":"high"}
+{"id":"cp-atom-012","knowledge":"偏好至少需要两个不同样本的正向证据，或一条完整改稿强证据加一条明确选择，并通过反例与任务保真回测后才能 validated。","type":"quality_gate","topics":["aesthetic-alignment","validation"],"source":"内容审美对齐@泛函 + Course Producer original validation gate","confidence":"high"}
