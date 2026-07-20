@@ -37,3 +37,7 @@ course-producer → 原子 Skills → 知识库
 - 所有 Skill 必须通过 `quick_validate.py`。
 - 外部写入必须回读；事实与课程素材必须保留来源。
 - 不提交密钥、token、客户课程材料或 `.course-producer/` 运行状态。
+
+## 状态工具
+
+`tools/course-project.mjs` 是用户课程项目的唯一控制面，只读写项目根目录下的 `.course-producer/`。修改阶段名、状态迁移或指纹规则时，必须同步测试与 `docs/architecture.md`。

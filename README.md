@@ -46,12 +46,23 @@ tools/                        确定性状态与构建工具
 
 - [x] 源能力、架构和许可边界
 - [x] 中文主入口与多 Skill 仓库骨架
-- [ ] Goal 长任务状态机
+- [x] Goal 长任务状态机
 - [ ] 材料摄取、定位、访谈、知识萃取、课纲、逐字稿和审校
 - [ ] 飞书协作与海报原型
 - [ ] 完整构建、场景测试与发布包
 
 尚未完成的原子 Skill 不会由主入口伪装成已经可用。
+
+## 项目状态 CLI
+
+```bash
+node tools/course-project.mjs --root /path/to/course init --name "课程名称"
+node tools/course-project.mjs --root /path/to/course status
+node tools/course-project.mjs --root /path/to/course resume
+node tools/course-project.mjs --root /path/to/course verify
+```
+
+阶段产物完成后用 `checkpoint` 登记真实文件、输入指纹和验证结果。CLI 默认拒绝非法状态迁移和已确认产物的静默替换；只有用户明确要求重验时才使用 `--force`。
 
 ## 来源边界
 
