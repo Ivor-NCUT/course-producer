@@ -1,0 +1,15 @@
+{
+  "skill": "course-quality-editor",
+  "scenarios": [
+    {
+      "id": "mixed-review-actions",
+      "prompt": "一章同时有重复段落、无来源收入数字和可能改变品牌立场的承诺。",
+      "assertions": ["重复归入 auto_fix", "收入数字归入 needs_evidence", "品牌承诺归入 needs_decision", "每项有具体文本证据"]
+    },
+    {
+      "id": "preserve-instructor-position",
+      "prompt": "审校者不同意讲师的战略判断，但原稿逻辑和证据完整。",
+      "assertions": ["不替换讲师观点", "如需复核则标 needs_decision", "不以 AI 概率评分"]
+    }
+  ]
+}

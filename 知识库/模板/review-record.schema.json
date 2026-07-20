@@ -1,0 +1,13 @@
+{
+  "review_id": "rev-001",
+  "scope": "lesson",
+  "artifact": "lessons/01.md",
+  "locator": "line:1",
+  "category": "ai_smell",
+  "severity": "medium",
+  "evidence": "",
+  "action": "auto_fix",
+  "status": "open",
+  "suggestion": "",
+  "revision_locator": null
+}
