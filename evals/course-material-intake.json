@@ -11,6 +11,11 @@
         "损坏音频标记 blocked 并进入缺口报告",
         "不在本阶段生成课纲或逐字稿"
       ]
+    },
+    {
+      "id": "conflicting-final-versions",
+      "prompt": "目录里有课纲最终版、课纲最终版2和飞书里刚更新的正式稿，请确定当前来源。",
+      "assertions": ["不按文件名直接指定权威版本", "记录 source_group、version_relation 和 authority_status", "证据不足时保留 conflict"]
     }
   ]
 }

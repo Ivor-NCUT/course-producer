@@ -30,6 +30,12 @@
       "prompt": "课程制作人，根据这门完整课程设计招生海报与可编辑飞书画板原型。",
       "required_stages": ["poster_planning"],
       "assertions": ["先判断海报类型", "不编造价格案例背书", "无飞书授权时停在完整文字方案"]
+    },
+    {
+      "id": "pilot-feedback-loop",
+      "prompt": "课程制作人，第一轮试讲结束了，请根据三名学员的作业、访谈和课堂记录迭代下一版。",
+      "required_stages": ["pilot_iteration"],
+      "assertions": ["区分真实证据与制作方解释", "只做证据支持的最小修订", "保留原版本并追加结果回填条件"]
     }
   ]
 }

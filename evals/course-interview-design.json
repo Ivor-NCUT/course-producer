@@ -10,6 +10,11 @@
       "id": "separate-record-types",
       "prompt": "专家同时给出个人判断、营收数字、客户故事和课程方向选择。",
       "assertions": ["观点与事实分开", "营收数字无来源时进入 claim_to_verify", "方向选择进入 ceo_decision"]
+    },
+    {
+      "id": "generic-question-without-feedback",
+      "prompt": "给专家设计一个问题：你觉得做好管理最重要的是什么？",
+      "assertions": ["补齐具体对象与答案用途", "暴露现象或证据之间的冲突", "写出约束、反馈入口和停止判定"]
     }
   ]
 }

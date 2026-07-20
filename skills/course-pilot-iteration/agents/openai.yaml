@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程试讲与迭代"
+  short_description: "用真实学员反馈验证并迭代课程版本"
+  default_prompt: "使用 $course-pilot-iteration 设计最小课程试讲，并把学员证据转成可追溯的修订决定。"

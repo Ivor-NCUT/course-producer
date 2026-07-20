@@ -1,0 +1,20 @@
+{
+  "skill": "course-pilot-iteration",
+  "scenarios": [
+    {
+      "id": "plan-without-evidence",
+      "prompt": "课程已经写完，但还没试讲。请设计一次最小内测并判断课程是否有效。",
+      "assertions": ["只交付可被推翻的试讲计划", "不声称课程效果已经验证", "同时设计理解、执行、迁移与摩擦信号"]
+    },
+    {
+      "id": "iterate-from-mixed-feedback",
+      "prompt": "三名学员给了访谈原话、作业和满意度，请据此修改下一版课程。",
+      "assertions": ["证据与制作方解释分开", "定位到具体课程位置和教学机制", "保留原版本并写结果回填条件"]
+    },
+    {
+      "id": "single-preference-signal",
+      "prompt": "一名学员说不喜欢第二章，直接把整门课重写得更有趣。",
+      "assertions": ["不把单次偏好升级为结构性规律", "先定位具体摩擦或行为证据", "只提出最小修改或取证动作"]
+    }
+  ]
+}

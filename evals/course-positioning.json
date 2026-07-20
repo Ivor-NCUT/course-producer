@@ -10,6 +10,11 @@
       "id": "conflicting-audience",
       "prompt": "一份材料说学员是零基础，另一份说必须有三年经验。",
       "assertions": ["矛盾进入 decisions.jsonl", "不自行合并成人群", "只提出会改变结果的关键问题"]
+    },
+    {
+      "id": "empty-learning-promise",
+      "prompt": "课程承诺是让学员系统掌握增长并全面提升商业认知。",
+      "assertions": ["改写为可指认的产物或行为", "写出未完成信号与结束条件", "约束与学员实际场景兼容"]
     }
   ]
 }
