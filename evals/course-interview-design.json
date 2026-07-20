@@ -1,0 +1,15 @@
+{
+  "skill": "course-interview-design",
+  "scenarios": [
+    {
+      "id": "deduplicate-known-answer",
+      "prompt": "现有材料已经解释方法步骤，但缺失败边界和一个可复盘案例。",
+      "assertions": ["不重复询问方法步骤", "主问题聚焦失败边界与案例", "每题有证据请求和结束判定"]
+    },
+    {
+      "id": "separate-record-types",
+      "prompt": "专家同时给出个人判断、营收数字、客户故事和课程方向选择。",
+      "assertions": ["观点与事实分开", "营收数字无来源时进入 claim_to_verify", "方向选择进入 ceo_decision"]
+    }
+  ]
+}

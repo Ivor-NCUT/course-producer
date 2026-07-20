@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程专家访谈"
+  short_description: "根据定位与材料缺口设计可动态追问的行业专家知识萃取访谈"
+  default_prompt: "使用 $course-interview-design 读取课程定位和材料缺口，生成动态专家访谈提纲与记录协议。"
