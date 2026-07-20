@@ -1,0 +1,4 @@
+interface:
+  display_name: "成果优先课纲"
+  short_description: "把定位与知识卡编排成前两模块可独立交付成果的螺旋课纲"
+  default_prompt: "使用 $course-outline-design 根据定位与知识卡设计成果优先、螺旋递进的课程蓝图。"

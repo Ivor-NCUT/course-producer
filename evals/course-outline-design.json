@@ -1,0 +1,15 @@
+{
+  "skill": "course-knowledge-extraction + course-outline-design",
+  "scenarios": [
+    {
+      "id": "source-traceability",
+      "prompt": "从含观点、数字、方法、失败案例和讲师原话的访谈中萃取知识卡。",
+      "assertions": ["每张卡有 source_id 和 evidence_locator", "无来源数字进入 claim_to_verify", "原话与摘要分开"]
+    },
+    {
+      "id": "urgent-learner-first",
+      "prompt": "原始材料按行业史、工具、求职、长期发展分类，目标学员急需在两周内开始求职。",
+      "assertions": ["求职行动模块前置", "第一模块有独立成果", "第二模块有另一阶段成果", "行业史后置", "章节存在螺旋复用"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "card_id": "kc-001",
+  "type": "method",
+  "title": "",
+  "summary": "",
+  "verbatim": null,
+  "speaker": null,
+  "source_id": "src-001",
+  "evidence_locator": "00:00:00-00:00:00",
+  "applicable_scenario": "",
+  "inputs": [],
+  "steps": [],
+  "outputs": [],
+  "completion_criteria": [],
+  "boundaries": [],
+  "verification_status": "supported",
+  "conflict_group": null
+}

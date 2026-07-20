@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程知识萃取"
+  short_description: "把访谈和材料提取成带来源与证据位置的知识卡"
+  default_prompt: "使用 $course-knowledge-extraction 从课程材料提取 knowledge-cards.jsonl，保留 source_id 和证据位置。"
